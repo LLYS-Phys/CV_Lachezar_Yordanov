@@ -7,12 +7,19 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'website-cv-angular';
-  openedIntroduction = false
+  openedIntroduction = true
   openedWorkExperience = false
   openedEducation = false
   openedSkills = false
   openedAchievements = false
   openedMoreAboutMe = false
+  bgLang = true
+  introductionText = 'Представяне'
+  workExperienceText = 'Трудов опит'
+  educationText = 'Образование'
+  skillsText = 'Умения'
+  achievementsText = 'Постижения'
+  moreAboutMeText = 'Още за мен'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -66,6 +73,26 @@ export class AppComponent {
     this.openedSkills = false
     this.openedAchievements = false
     this.openedMoreAboutMe = true
+  }
+
+  setLangEn() {
+    this.bgLang = false
+    this.introductionText = 'Introduction'
+    this.workExperienceText = 'Work Experience'
+    this.educationText = 'Education'
+    this.skillsText = 'Skills'
+    this.achievementsText = 'Achievements'
+    this.moreAboutMeText = 'More About Me'
+  }
+
+  setLangBg() {
+    this.bgLang = true
+    this.introductionText = 'Представяне'
+    this.workExperienceText = 'Трудов опит'
+    this.educationText = 'Образование'
+    this.skillsText = 'Умения'
+    this.achievementsText = 'Постижения'
+    this.moreAboutMeText = 'Още за мен'
   }
 
 }

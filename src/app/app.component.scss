@@ -1,10 +1,62 @@
-.header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-.footer{
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.main{
+    .header{
+        position: fixed;
+        top: 0;
+        width: 80%;
+        background-color: black;
+        display: table;
+        table-layout: fixed;
+        height: 5%;
+        a{
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+            display: table-cell;
+            text-align: center;
+            transition: 0.5s;
+            font-size: 18px;
+            padding-top: 0.8%;
+        }
+        a:hover{
+            background-color: purple;
+            transition: 0.5s;
+            font-weight: bold;
+        }
+        .active{
+            background-color: purple;
+            font-weight: bold;
+        }
+    }
+    .footer{
+        position: fixed;
+        bottom: 0;
+        width: 80%;
+        display: table;
+        table-layout: fixed;
+        padding-bottom: 10px;
+        a{
+            cursor: pointer;
+            text-decoration: none;
+            display: table-cell;
+            text-align: center;
+            font-size: 18px;
+            color: black;
+            transition: 0.5s;
+        }
+        a:hover{
+            color: purple;
+            transition: 0.5s;
+        }
+        .langs{
+            img{
+                display:inline-block;
+                width: 40px;
+                padding-bottom: 15px;
+                cursor: pointer;
+            }
+            span{
+                font-size: 30px;
+            }
+        }
+    }
 }
