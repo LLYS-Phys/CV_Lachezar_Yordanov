@@ -1,0 +1,34 @@
+.introduction{
+    text-align: center;
+    h2{
+        font-size: 82px;
+        padding-top: 5%;
+    }
+    .photo{
+        margin-top: -8%;
+        width: 30%;
+        border-radius: 8%;
+    }
+    .intro{
+        padding-top: 8%;
+        text-align: left;
+        .helloText{
+            padding-left: 5%;
+            font-size: 52px;
+        }
+        .introText{
+            padding-top: 3%;
+            font-size: 28px;
+            white-space: pre;
+        }
+    }
+    .navigation{
+        padding-top: 10%;
+        font-size: 28px;
+        table{
+            img{
+                width: 80%;
+            }
+        }
+    }
+}
