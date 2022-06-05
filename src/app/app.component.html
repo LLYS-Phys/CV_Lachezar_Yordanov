@@ -1,11 +1,11 @@
-<div class="main">
+<div class="main col-lg-12">
     <div class="header">
-        <a class="active" (click)="clickIntroduction()">Introduction</a>
-        <a (click)="clickWorkExperience()">Work Experience</a>
-        <a (click)="clickEducation()">Education</a>
-        <a (click)="clickSkills()">Skills</a>
-        <a (click)="clickAchievements()">Achievements</a>
-        <a (click)="clickMoreAboutMe()">More About Me</a>
+        <a (click)="clickIntroduction()" [ngClass]="{active: openedIntroduction}">{{ introductionText }}</a>
+        <a (click)="clickWorkExperience()" [ngClass]="{active: openedWorkExperience}">{{ workExperienceText }}</a>
+        <a (click)="clickEducation()" [ngClass]="{active: openedEducation}">{{ educationText }}</a>
+        <a (click)="clickSkills()" [ngClass]="{active: openedSkills}">{{ skillsText }}</a>
+        <a (click)="clickAchievements()" [ngClass]="{active: openedAchievements}">{{ achievementsText }}</a>
+        <a (click)="clickMoreAboutMe()" [ngClass]="{active: openedMoreAboutMe}">{{ moreAboutMeText }}</a>
     </div>
 
     <app-introduction *ngIf="openedIntroduction"></app-introduction>
@@ -16,11 +16,16 @@
     <app-more-about-me *ngIf="openedMoreAboutMe"></app-more-about-me>
 
     <div class="footer">
-      <a class="active" (click)="clickIntroduction()">Introduction</a>
-      <a (click)="clickWorkExperience()">Work Experience</a>
-      <a (click)="clickEducation()">Education</a>
-      <a (click)="clickSkills()">Skills</a>
-      <a (click)="clickAchievements()">Achievements</a>
-      <a (click)="clickMoreAboutMe()">More About Me</a>
+      <a (click)="clickIntroduction()"><span *ngIf="!bgLang">Introduction</span><span *ngIf="bgLang">Представяне</span></a>
+      <a (click)="clickWorkExperience()"><span *ngIf="!bgLang">Work Experience</span><span *ngIf="bgLang">Трудов опит</span></a>
+      <a (click)="clickEducation()"><span *ngIf="!bgLang">Education</span><span *ngIf="bgLang">Образование</span></a>
+      <a (click)="clickSkills()"><span *ngIf="!bgLang">Skills</span><span *ngIf="bgLang">Умения</span></a>
+      <a (click)="clickAchievements()"><span *ngIf="!bgLang">Achievements</span><span *ngIf="bgLang">Постижения</span></a>
+      <a (click)="clickMoreAboutMe()"><span *ngIf="!bgLang">More About Me</span><span *ngIf="bgLang">Още за мен</span></a>
+      <div class="langs">
+          <img src="../assets/bg-flag.jpg" id="bgFlag" (click)="setLangBg()"/>
+          <span> / </span>
+          <img src="../assets/us-flag.png" id="enFlag" (click)="setLangEn()"/>
+      </div>
   </div>
 </div>
