@@ -1,0 +1,26 @@
+<div class="main">
+    <div class="header">
+        <a class="active" (click)="clickIntroduction()">Introduction</a>
+        <a (click)="clickWorkExperience()">Work Experience</a>
+        <a (click)="clickEducation()">Education</a>
+        <a (click)="clickSkills()">Skills</a>
+        <a (click)="clickAchievements()">Achievements</a>
+        <a (click)="clickMoreAboutMe()">More About Me</a>
+    </div>
+
+    <app-introduction *ngIf="openedIntroduction"></app-introduction>
+    <app-work-experience *ngIf="openedWorkExperience"></app-work-experience>
+    <app-education *ngIf="openedEducation"></app-education>
+    <app-skills *ngIf="openedSkills"></app-skills>
+    <app-achievements *ngIf="openedAchievements"></app-achievements>
+    <app-more-about-me *ngIf="openedMoreAboutMe"></app-more-about-me>
+
+    <div class="footer">
+      <a class="active" (click)="clickIntroduction()">Introduction</a>
+      <a (click)="clickWorkExperience()">Work Experience</a>
+      <a (click)="clickEducation()">Education</a>
+      <a (click)="clickSkills()">Skills</a>
+      <a (click)="clickAchievements()">Achievements</a>
+      <a (click)="clickMoreAboutMe()">More About Me</a>
+  </div>
+</div>
