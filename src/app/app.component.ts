@@ -77,6 +77,20 @@ StudyHub се управлява от НПО организация - Сдруж
   eduDescription3='Udemy е платформата, където съживих старите си знания по HTML&CSS и JavaScript, като научих и доста нови неща. В момента преминавам през задълбочен курс за Angular.'
   eduDescription4='Музикалната школа е част от заниманията, предлагани от читалището в Ловеч (моят роден град).Започнах уроците си в 10ти клас и изпъкнах с уменията си за учене, като само след 6 месеца вече бях част от концертите на читалището.'
   titleSkills='Умения'
+  techSkills="Технически Умения"
+  personalSkills="Лични Умения"
+  langsTitle='Езици'
+  langsTableTitle='Език'
+  langsLevelTitle='Ниво'
+  langsMoreInformationTitle='Повече информация'
+  lang1 = 'Български'
+  lang2 = 'Английски'
+  lang3 = 'Френски'
+  langNative = 'Майчин'
+  langInfo1 = 'Роден и израснал съм в България и българският е моят майчин език.'
+  langInfo2 = 'Започнах изучаване на английски език на 6-годишна възраст. Също така съм го изучавал задълбочено 5 години в ПЕГ "Екзарх Йосиф I".'
+  langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
+  clientsTitle = 'Клиенти, с които съм работил'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -198,6 +212,20 @@ I'm currently taking up an extensive course for Angular.`
     this.eduDescription4=`The Music School was part of Lovech's (my hometown) Community Center activities.
 I started taking up lessons in the 10th grade and exceled at it, as only after 6 months I was already part of the Community Center's concerts.`
     this.titleSkills='Skills'
+    this.techSkills="Technical Skills"
+    this.personalSkills="Personal Skills"
+    this.langsTitle='Languages'
+    this.langsTableTitle='Language'
+    this.langsLevelTitle='Level'
+    this.langsMoreInformationTitle='More information'
+    this.lang1 = 'Bulgarian'
+    this.lang2 = 'English'
+    this.lang3 = 'French'
+    this.langNative = 'Native'
+    this.langInfo1 = 'I was born and raised in Bulgaria, and so Bulgarian is my first and native Language.'
+    this.langInfo2 = 'I started learning English at the age of 6, and have also studied it extensively for 5 years in FLS "Ekzarh Josif I".'
+    this.langInfo3 = 'French was my second language to study in FLS "Ekzarh Josif I".'
+    this.clientsTitle = 'Clients I have worked with'
   }
 
   setLangBg() {
@@ -264,6 +292,20 @@ StudyHub се управлява от НПО организация - Сдруж
     this.eduDescription3='Udemy е платформата, където съживих старите си знания по HTML&CSS и JavaScript, като научих и доста нови неща. В момента преминавам през задълбочен курс за Angular.'
     this.eduDescription4='Музикалната школа е част от заниманията, предлагани от читалището в Ловеч (моят роден град).Започнах уроците си в 10ти клас и изпъкнах с уменията си за учене, като само след 6 месеца вече бях част от концертите на читалището.'
     this.titleSkills='Умения'
+    this.techSkills="Технически Умения"
+    this.personalSkills="Лични Умения"
+    this.langsTitle='Езици'
+    this.langsTableTitle='Език'
+    this.langsLevelTitle='Ниво'
+    this.langsMoreInformationTitle='Повече информация'
+    this.lang1 = 'Български'
+    this.lang2 = 'Английски'
+    this.lang3 = 'Френски'
+    this.langNative = 'Майчин'
+    this.langInfo1 = 'Роден и израснал съм в България и българският е моят майчин език.'
+    this.langInfo2 = 'Започнах изучаване на английски език на 6-годишна възраст. Също така съм го изучавал задълбочено 5 години в ПЕГ "Екзарх Йосиф I".'
+    this.langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
+    this.clientsTitle = 'Клиенти, с които съм работил'
   }
 
   introWork(){

@@ -2,7 +2,100 @@
     <h2 class="col-lg-8">{{ titleSkills }}</h2>
     <img src="../../assets/skills1.png" class="photo col-lg-4"/>
     <div class="skills-container col-lg-12">
-        <h3>Professional skills</h3>
-        
+        <div class="techSkills">
+            <h3>{{ techSkills }}</h3>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">HTML&CSS</label>
+                <progress id="file" value="95" max="100" class="skillProgress"> 95% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">JavaScript</label>
+                <progress id="file" value="80" max="100" class="skillProgress"> 80% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">TypeScript</label>
+                <progress id="file" value="50" max="100" class="skillProgress"> 50% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">Python</label>
+                <progress id="file" value="35" max="100" class="skillProgress"> 35% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">Angular</label>
+                <progress id="file" value="35" max="100" class="skillProgress"> 35% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">RegExp</label>
+                <progress id="file" value="60" max="100" class="skillProgress"> 60% </progress>
+            </div>
+            <div class="skill col-lg-12">
+                <label for="file" class="skillName">MS Office</label>
+                <progress id="file" value="90" max="100" class="skillProgress"> 90% </progress>
+            </div>
+        </div>
+        <div class="personalSkills">
+            <h3>{{ personalSkills }}</h3>
+            <div class="image col-lg-6">
+                <img src="../../assets/ambition-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/ambition-bg.jpg" *ngIf="bgLang"/>
+            </div>
+            <div class="image col-lg-6">
+                <img src="../../assets/determination-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/determination-bg.jpg" *ngIf="bgLang"/>
+            </div>
+            <div class="image col-lg-6">
+                <img src="../../assets/communication-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/communication-bg.jpg" *ngIf="bgLang"/>
+            </div>
+            <div class="image col-lg-6">
+                <img src="../../assets/adaptivity-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/adaptivity-bg.jpg" *ngIf="bgLang"/>
+            </div>
+            <div class="image col-lg-6">
+                <img src="../../assets/teamwork-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/teamwork-bg.jpg" *ngIf="bgLang"/>
+            </div>
+            <div class="image col-lg-6">
+                <img src="../../assets/perfection-en.jpg" *ngIf="!bgLang"/>
+                <img src="../../assets/perfection-bg.jpg" *ngIf="bgLang"/>
+            </div>
+        </div>
+        <div class="langs">
+            <h3>{{ langsTitle }}</h3>
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th scope="col">{{ langsTableTitle }}</th>
+                    <th scope="col">{{ langsLevelTitle }}</th>
+                    <th scope="col">{{ langsMoreInformationTitle }}</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{ lang1 }}</td>
+                    <td>{{ langNative }}</td>
+                    <td>{{ langInfo1 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ lang2 }}</td>
+                    <td>C1/C2</td>
+                    <td>{{ langInfo2 }}</td>
+                </tr>
+                <tr>
+                    <td>{{ lang3 }}</td>
+                    <td>A1/A2</td>
+                    <td>{{ langInfo3 }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="clients">
+            <h3>{{ clientsTitle }}</h3>
+            <img src="../../assets/milka-logo.png"/>
+            <img src="../../assets/vodafone-logo.png"/>
+            <img src="../../assets/pirelli-logo.png"/>
+            <img src="../../assets/pfizer-logo.png"/>
+            <img src="../../assets/johnson-johnson-logo.png"/>
+        </div>
     </div>
 </div>
