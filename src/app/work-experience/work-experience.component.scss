@@ -8,6 +8,8 @@
             padding: auto;
             padding-bottom: 30px;
             border: 1px solid transparent;
+            padding-top: 1%;
+            transition: 0.5s;
             .moreInfo{
                 text-align: left;
                 height: 210px;
@@ -16,16 +18,19 @@
                 }
             }
             .logo{
-                width: 100%;
+                width: 15vw;
             }
         }
         .job:hover{
             cursor: pointer;
-            border: 2px solid purple;
+            background-color: lightgray;
+            transition: 0.5s;
         }
     }
     .workDescriptionPopUp{
         background-color: lightgray;
+        border: 3px solid purple;
+        box-shadow: black;
         margin: 5% 25%;
         z-index: 9999;
         height: 70%;
