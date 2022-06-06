@@ -9,14 +9,43 @@
         <p class="navText">{{ navText }}</p>
         <table>
             <tr>
-                <td><img src="../../assets/work1.jpg"/></td>
-                <td><img src="../../assets/education1.jpg"/></td>
-                <td><img src="../../assets/skills1.png"/></td>
+                <td>
+                    <a (click)="clickWork()">
+                        <img src="../../assets/work1.jpg"/>
+                        <h4>{{ workExperienceText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickEducation()">
+                        <img src="../../assets/education1.jpg"/>
+                        <h4>{{ educationText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickSkills()">
+                        <img src="../../assets/skills1.png"/>
+                        <h4>{{ skillsText }}</h4>
+                    </a>
+                </td>
             </tr>
             <tr>
-                <td><img src="../../assets/achievements1.jpg"/></td>
-                <td><img src="../../assets/more-about-me1.jpg"/></td>
-                <td><img src="../../assets/contact-me.png"/></td>
+                <td>
+                    <a (click)="clickAchievements()">
+                        <img src="../../assets/achievements1.jpg"/>
+                        <h4>{{ achievementsText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickMore()">
+                        <img src="../../assets/more-about-me1.jpg"/>
+                        <h4>{{ moreAboutMeText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickContact()">
+                        <img src="../../assets/contact-me.png"/>
+                    </a>
+                </td>
             </tr>
         </table>
     </div>

@@ -11,7 +11,7 @@
     <div class="name col-lg-8">
         <h1>{{ name }}</h1>
     </div>
-    <app-introduction *ngIf="openedIntroduction" [titleIntro]="titleIntro" [introText]="introText" [helloText]="helloText" [navText]="navText"></app-introduction>
+    <app-introduction *ngIf="openedIntroduction" [titleIntro]="titleIntro" [introText]="introText" [helloText]="helloText" [navText]="navText" (workClicked)="introWork()" (educationClicked)="introEducation()" (skillsClicked)="introSkills()" (achievementsClicked)="introAchievements()" (moreClicked)="introMore()" [workExperienceText]="workExperienceText" [educationText]="educationText" [skillsText]="skillsText" [achievementsText]="achievementsText" [moreAboutMeText]="moreAboutMeText"></app-introduction>
     <app-work-experience *ngIf="openedWorkExperience"></app-work-experience>
     <app-education *ngIf="openedEducation"></app-education>
     <app-skills *ngIf="openedSkills"></app-skills>

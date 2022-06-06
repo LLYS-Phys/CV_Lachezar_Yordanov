@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IntroductionComponent } from './introduction/introduction.component';
 
 @Component({
   selector: 'app-root',
@@ -132,6 +133,51 @@ I would be glad to join your company.`
 Бих се радвал да имаме възможността да работим заедно.`
     this.helloText="Здравейте!"
     this.navText="И така, ако обичате, разгледайте моя Уебсайт-CV."
+  }
+
+  introWork(){
+    this.openedIntroduction = false
+    this.openedWorkExperience = true
+    this.openedEducation = false
+    this.openedSkills = false
+    this.openedAchievements = false
+    this.openedMoreAboutMe = false
+  }
+
+  introEducation(){
+    this.openedIntroduction = false
+    this.openedWorkExperience = false
+    this.openedEducation = true
+    this.openedSkills = false
+    this.openedAchievements = false
+    this.openedMoreAboutMe = false
+  }
+
+  introSkills(){
+    this.openedIntroduction = false
+    this.openedWorkExperience = false
+    this.openedEducation = false
+    this.openedSkills = true
+    this.openedAchievements = false
+    this.openedMoreAboutMe = false
+  }
+
+  introAchievements() {
+    this.openedIntroduction = false
+    this.openedWorkExperience = false
+    this.openedEducation = false
+    this.openedSkills = false
+    this.openedAchievements = true
+    this.openedMoreAboutMe = false
+  }
+
+  introMore() {
+    this.openedIntroduction = false
+    this.openedWorkExperience = false
+    this.openedEducation = false
+    this.openedSkills = false
+    this.openedAchievements = false
+    this.openedMoreAboutMe = true
   }
 
 }
