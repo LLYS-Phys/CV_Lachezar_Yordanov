@@ -1,0 +1,58 @@
+.work{
+    text-align: center;
+    .jobEntries{
+        margin-top: 100px;
+        display: contents;
+        .job{
+            display: flex;
+            padding: auto;
+            padding-bottom: 30px;
+            border: 1px solid transparent;
+            .moreInfo{
+                text-align: left;
+                height: 210px;
+                h3{
+                    font-size: 38px;
+                }
+            }
+            .logo{
+                width: 100%;
+            }
+        }
+        .job:hover{
+            cursor: pointer;
+            border: 2px solid purple;
+        }
+    }
+    .workDescriptionPopUp{
+        background-color: lightgray;
+        margin: 5% 25%;
+        z-index: 9999;
+        height: 70%;
+        position: fixed;
+        display: none;
+        .text{
+            padding-top: 10%;
+            p{
+                font-size: 16px;
+                width: 80%;
+                margin: 0 10%;
+            }
+        }
+        .image{
+            padding-top: 10%;
+            img{
+                width: 50%;
+            }
+        }
+        .closeBtn{
+            float: right;
+            font-size: 26px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+        .closeBtn:hover{
+            font-weight: bold;
+        }
+    }
+}

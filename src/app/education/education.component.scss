@@ -1,0 +1,90 @@
+.education{
+    text-align: center;
+    .main{
+        padding-top: 50px;
+        display: contents;
+        .edu{
+            display: flex;
+            padding: auto;
+            padding-bottom: 30px;
+            border: 1px solid transparent;
+            .moreInfo{
+                text-align: left;
+                height: 210px;
+                h3{
+                    font-size: 38px;
+                }
+            }
+            .logo{
+                width: auto;
+                height: 200px;
+            }
+        }
+        .edu:hover{
+            cursor: pointer;
+            border: 2px solid purple;
+        }
+    }
+    .educationPopUp{
+        background-color: lightgray;
+        margin: 5% 25%;
+        z-index: 9999;
+        height: 70%;
+        position: fixed;
+        display: none;
+        .text{
+            padding-top: 10%;
+            p{
+                font-size: 16px;
+                width: 80%;
+                margin: 0 10%;
+            }
+        }
+        .image{
+            padding-top: 10%;
+            img{
+                width: 50%;
+            }
+        }
+        .closeBtn{
+            float: right;
+            font-size: 26px;
+            padding-top: 10px;
+            cursor: pointer;
+        }
+        .closeBtn:hover{
+            font-weight: bold;
+        }
+    }
+    .additional{
+        .additionalEduTitle{
+            padding-top: 100px;
+            font-size: 36px;
+            color: purple;
+            padding-bottom: 30px;
+    }
+    .edu{
+        display: flex;
+        padding: auto;
+        padding-bottom: 30px;
+        border: 1px solid transparent;
+        .moreInfo{
+            text-align: left;
+            height: 210px;
+            h3{
+                font-size: 38px;
+            }
+        }
+        .logo{
+            width: auto;
+            height: 200px;
+        }
+    }
+    .edu:hover{
+        cursor: pointer;
+        border: 2px solid purple;
+    }
+}
+    
+       
+}
