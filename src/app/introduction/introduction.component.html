@@ -1,1 +1,52 @@
-<p>introduction works!</p>
+<div class="introduction">
+    <h2 class="col-lg-8">{{ titleIntro }}</h2>
+    <img src="../../assets/photo.jpg" class="photo col-lg-4"/>
+    <div class="intro col-lg-12">
+        <h3 class="helloText">{{ helloText }}</h3>
+        <p class="introText">{{ introText }}</p>
+    </div>
+    <div class="navigation col-lg-12">
+        <p class="navText">{{ navText }}</p>
+        <table>
+            <tr>
+                <td>
+                    <a (click)="clickWork()">
+                        <img src="../../assets/work1.jpg"/>
+                        <h4>{{ workExperienceText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickEducation()">
+                        <img src="../../assets/education1.jpg"/>
+                        <h4>{{ educationText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickSkills()">
+                        <img src="../../assets/skills1.png"/>
+                        <h4>{{ skillsText }}</h4>
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a (click)="clickAchievements()">
+                        <img src="../../assets/achievements1.jpg"/>
+                        <h4>{{ achievementsText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickMore()">
+                        <img src="../../assets/more-about-me1.jpg"/>
+                        <h4>{{ moreAboutMeText }}</h4>
+                    </a>
+                </td>
+                <td>
+                    <a (click)="clickContact()">
+                        <img src="../../assets/contact-me.png"/>
+                    </a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
