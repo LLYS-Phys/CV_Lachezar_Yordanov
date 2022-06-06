@@ -91,6 +91,7 @@ StudyHub се управлява от НПО организация - Сдруж
   langInfo2 = 'Започнах изучаване на английски език на 6-годишна възраст. Също така съм го изучавал задълбочено 5 години в ПЕГ "Екзарх Йосиф I".'
   langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
   clientsTitle = 'Клиенти, с които съм работил'
+  titleAchievements = 'Постижения'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -226,6 +227,7 @@ I started taking up lessons in the 10th grade and exceled at it, as only after 6
     this.langInfo2 = 'I started learning English at the age of 6, and have also studied it extensively for 5 years in FLS "Ekzarh Josif I".'
     this.langInfo3 = 'French was my second language to study in FLS "Ekzarh Josif I".'
     this.clientsTitle = 'Clients I have worked with'
+    this.titleAchievements = "Achievements"
   }
 
   setLangBg() {
@@ -306,6 +308,7 @@ StudyHub се управлява от НПО организация - Сдруж
     this.langInfo2 = 'Започнах изучаване на английски език на 6-годишна възраст. Също така съм го изучавал задълбочено 5 години в ПЕГ "Екзарх Йосиф I".'
     this.langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
     this.clientsTitle = 'Клиенти, с които съм работил'
+    this.titleAchievements = 'Постижения'
   }
 
   introWork(){
