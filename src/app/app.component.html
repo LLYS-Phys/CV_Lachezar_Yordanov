@@ -14,7 +14,7 @@
     <app-introduction *ngIf="openedIntroduction" [titleIntro]="titleIntro" [introText]="introText" [helloText]="helloText" [navText]="navText" (workClicked)="introWork()" (educationClicked)="introEducation()" (skillsClicked)="introSkills()" (achievementsClicked)="introAchievements()" (moreClicked)="introMore()" [workExperienceText]="workExperienceText" [educationText]="educationText" [skillsText]="skillsText" [achievementsText]="achievementsText" [moreAboutMeText]="moreAboutMeText"></app-introduction>
     <app-work-experience *ngIf="openedWorkExperience" [titleWork]="titleWork" [jobTitle1]="jobTitle1" [jobTitle2]="jobTitle2" [jobTitle3]="jobTitle3" [jobTitle4]="jobTitle4" [jobTitle5]="jobTitle5" [jobTitle6]="jobTitle6" [jobDescription1]="jobDescription1" [jobDescription2]="jobDescription2" [jobDescription3]="jobDescription3" [jobDescription4]="jobDescription4" [jobDescription5]="jobDescription5" [jobDescription6]="jobDescription6"></app-work-experience>
     <app-education *ngIf="openedEducation" [titleEducation]="titleEducation" [eduEntry1]="eduEntry1" [eduEntry2]="eduEntry2" [eduSpec1]="eduSpec1" [eduSpec2]="eduSpec2" [eduDescription1]="eduDescription1" [eduDescription2]="eduDescription2" [eduEntry4]="eduEntry4" [eduSpec4]="eduSpec4" [eduDescription3]="eduDescription3" [eduDescription4]="eduDescription4"></app-education>
-    <app-skills *ngIf="openedSkills"></app-skills>
+    <app-skills *ngIf="openedSkills" [titleSkills]="titleSkills"></app-skills>
     <app-achievements *ngIf="openedAchievements"></app-achievements>
     <app-more-about-me *ngIf="openedMoreAboutMe"></app-more-about-me>
 

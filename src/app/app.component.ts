@@ -76,6 +76,7 @@ StudyHub се управлява от НПО организация - Сдруж
   eduSpec4='Класическа китара'
   eduDescription3='Udemy е платформата, където съживих старите си знания по HTML&CSS и JavaScript, като научих и доста нови неща. В момента преминавам през задълбочен курс за Angular.'
   eduDescription4='Музикалната школа е част от заниманията, предлагани от читалището в Ловеч (моят роден град).Започнах уроците си в 10ти клас и изпъкнах с уменията си за учене, като само след 6 месеца вече бях част от концертите на читалището.'
+  titleSkills='Умения'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -196,7 +197,7 @@ My second language was French, but I have gained less knowledge of it.`
 I'm currently taking up an extensive course for Angular.`
     this.eduDescription4=`The Music School was part of Lovech's (my hometown) Community Center activities.
 I started taking up lessons in the 10th grade and exceled at it, as only after 6 months I was already part of the Community Center's concerts.`
-
+    this.titleSkills='Skills'
   }
 
   setLangBg() {
@@ -262,7 +263,7 @@ StudyHub се управлява от НПО организация - Сдруж
     this.eduSpec4='Класическа китара'
     this.eduDescription3='Udemy е платформата, където съживих старите си знания по HTML&CSS и JavaScript, като научих и доста нови неща. В момента преминавам през задълбочен курс за Angular.'
     this.eduDescription4='Музикалната школа е част от заниманията, предлагани от читалището в Ловеч (моят роден град).Започнах уроците си в 10ти клас и изпъкнах с уменията си за учене, като само след 6 месеца вече бях част от концертите на читалището.'
-
+    this.titleSkills='Умения'
   }
 
   introWork(){
