@@ -7,8 +7,16 @@
         <a (click)="clickAchievements()" [ngClass]="{active: openedAchievements}">{{ achievementsText }}</a>
         <a (click)="clickMoreAboutMe()" [ngClass]="{active: openedMoreAboutMe}">{{ moreAboutMeText }}</a>
     </div>
-    <div class="navbar navbar-inverse header-mobile">
-        
+    <div class="mobile-header">
+        <div class="nav-mobile col-xs-12" (click)="toggleNav()">≡</div>
+        <div class="menu">
+            <a (click)="clickIntroduction()" (click)="closeNav()" [ngClass]="{active: openedIntroduction}" class="col-xs-12">{{ introductionText }}</a>
+            <a (click)="clickWorkExperience()" (click)="closeNav()" [ngClass]="{active: openedWorkExperience}" class="col-xs-12">{{ workExperienceText }}</a>
+            <a (click)="clickEducation()" (click)="closeNav()" [ngClass]="{active: openedEducation}" class="col-xs-12">{{ educationText }}</a>
+            <a (click)="clickSkills()" (click)="closeNav()" [ngClass]="{active: openedSkills}" class="col-xs-12">{{ skillsText }}</a>
+            <a (click)="clickAchievements()" (click)="closeNav()" [ngClass]="{active: openedAchievements}" class="col-xs-12">{{ achievementsText }}</a>
+            <a (click)="clickMoreAboutMe()" (click)="closeNav()" [ngClass]="{active: openedMoreAboutMe}" class="col-xs-12">{{ moreAboutMeText }}</a>
+        </div>
     </div>
 
     <div class="name col-lg-8">
