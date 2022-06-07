@@ -112,6 +112,7 @@ StudyHub се управлява от НПО организация - Сдруж
   award1 = 'Финалист в Български текст на песен - 2018'
   award2 = 'Победител в Български текст на песен - 2019'
   titleMore = 'Още за мен'
+  titleHobbies = 'Хобита'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -268,6 +269,7 @@ Instead of experience, the platforms gives an alternative - specially designed P
     this.award1 = 'Finalist in Bulgarian Lyrics for a Song - 2018'
     this.award2 = 'Winner in Bulgarian Lyrics for a Song - 2019'
     this.titleMore = 'More about me'
+    this.titleHobbies = 'Hobbies'
   }
 
   setLangBg() {
@@ -369,6 +371,7 @@ StudyHub се управлява от НПО организация - Сдруж
     this.award1 = 'Финалист в Български текст на песен - 2018'
     this.award2 = 'Победител в Български текст на песен - 2019'
     this.titleMore = 'Още за мен'
+    this.titleHobbies = 'Хобита'
   }
 
   introWork(){

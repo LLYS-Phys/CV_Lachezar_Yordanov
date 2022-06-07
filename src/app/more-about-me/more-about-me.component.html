@@ -1,4 +1,11 @@
 <div class="more">
     <h2 class="col-lg-8">{{ titleMore }}</h2>
     <img src="../../assets/more-about-me1.jpg" class="photo col-lg-4"/>
+    <div class="hobbies col-lg-12">
+        <h3>{{ titleHobbies }}</h3>
+        <ng-image-slider [images]="imgCollection" [infinite]='true' [autoSlide]='3' [showArrow]='false' #nav></ng-image-slider>
+    </div>
+    <div class="contact col-lg-12" id="contacts">
+        <app-contacts></app-contacts>
+    </div>
 </div>
