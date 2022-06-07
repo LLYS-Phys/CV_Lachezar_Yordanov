@@ -32,11 +32,12 @@
         background-color: lightgray;
         border: 3px solid purple;
         box-shadow: black;
-        margin: 5% 25%;
+        margin: 0 25%;
         z-index: 9999;
         height: 70%;
         position: fixed;
-        display: none;
+        top: - 100%;
+        transition: all .5s ease-in-out;
         .text{
             padding-top: 10%;
             p{
@@ -91,8 +92,10 @@
         cursor: pointer;
         background-color: lightgray;
         transition: 0.5s;
+        }
     }
-}
-    
-       
+    .animation{
+        top: 20%;
+        transition: all .5s ease-in-out;
+    }  
 }
