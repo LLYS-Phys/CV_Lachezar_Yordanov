@@ -1,3 +1,56 @@
 .achievements{
     text-align: center;
+    h3{
+        font-size: 38px;
+        padding-bottom: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    .description{
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .social{
+        img{
+            width: 20%;
+            padding: 5%;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        img:hover{
+            width: 22%;
+            transition: 0.3s;
+        }
+    }
+    .studyhub{
+        padding-top: 70px;
+    }
+    .careerhub{
+        padding-top: 50px;
+    }
+    .awards{
+        padding-top: 50px;
+        padding-left: 15%;
+        padding-right: 10%;
+        li{
+            text-align: left;
+            font-size: 20px;
+            padding: 1%;
+        }
+        .shaward{
+            li{
+                list-style-image:url("../../assets/sh-logo\ \(1\).jpg");
+            }
+        }
+        .musicAward{
+            li{
+                list-style-image:url("../../assets/guitar-logo\ \(1\).png");
+            }
+        }
+        h4{
+            font-size: 24px;
+            padding-bottom: 2%;
+        }
+    }
 }

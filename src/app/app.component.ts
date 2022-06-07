@@ -92,6 +92,25 @@ StudyHub се управлява от НПО организация - Сдруж
   langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
   clientsTitle = 'Клиенти, с които съм работил'
   titleAchievements = 'Постижения'
+  shDescription = `StudyHub Bulgaria е първото пространство за споделено учене в Българиа.
+  То предлага на студентите тихо и модерно място, където те могат да преуспяват с ученето си.
+  То отвори врати на 1 октомври 2019 и вече е посетено от над 1500 студенти.`
+  learnMore = 'Научете повече:'
+  chDescription = `CareerHub е платформа за намиране на работа на хора с малко или без опит.
+  Тя цели да направи процеса по наемане на млади хора по-лесен за компаниите,
+  както и процесът на намииране на първа работа по-лесен за младежите. Вместо опит, платформата предлага алтернатива - специално разработени личностен и кариерен тест, достъпни за всеки младеж.`
+  awardsTitle = "Награди и Номинации"
+  shNominationsTitle = 'Номинации за StudyHub:'
+  personalAwards = 'Лични награди:'
+  nomination1 = 'Будител на годината - 2019'
+  nomination2 = 'Човек на годината - 2019'
+  nomination3 = 'Проект на годината - 2019'
+  nomination4 = 'Старт-ъп на годината - 2020 & 2021'
+  nomination5 = 'Най-добър новоизгяващ бизнес - 2020 & 2021'
+  nomination6 = 'Основател на годината - 2020 & 2021'
+  nomination7 = 'Най-добро Co-Working пространство - 2020 & 2021'
+  award1 = 'Финалист в Български текст на песен - 2018'
+  award2 = 'Победител в Български текст на песен - 2019'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -228,6 +247,25 @@ I started taking up lessons in the 10th grade and exceled at it, as only after 6
     this.langInfo3 = 'French was my second language to study in FLS "Ekzarh Josif I".'
     this.clientsTitle = 'Clients I have worked with'
     this.titleAchievements = "Achievements"
+    this.shDescription = `StudyHub is the first co-studying space in Bulgaria.
+It offers univeristy students a quiet and modern surrounding, in which they can excel at their studies.
+It opened its doors on October 1st 2019 and has already been visited by over 1500 university students.`
+    this.learnMore = 'Learn more:'
+    this.chDescription = `CareerHub is a platform for early-stage job-seekers.
+It aims to make the process of hiring youngsters easier for the companies, as well as make the process of finding a first job easier for the younsters.
+Instead of experience, the platforms gives an alternative - specially designed Personal and Career tests, available for every youngster.`
+    this.awardsTitle = "Awards and Nominations"
+    this.shNominationsTitle = 'Nominations for StudyHub:'
+    this.personalAwards = 'Personal awards:'
+    this.nomination1 = 'Educationer of the Year - 2019'
+    this.nomination2 = 'Person of the Year - 2019'
+    this.nomination3 = 'Project of the Year - 2019'
+    this.nomination4 = 'Startup of the Year - 2020 & 2021'
+    this.nomination5 = 'Best Newcomer - 2020 & 2021'
+    this.nomination6 = 'Founder of the Year - 2020 & 2021'
+    this.nomination7 = 'Best Co-Working Space - 2020 & 2021'
+    this.award1 = 'Finalist in Bulgarian Lyrics for a Song - 2018'
+    this.award2 = 'Winner in Bulgarian Lyrics for a Song - 2019'
   }
 
   setLangBg() {
@@ -309,6 +347,25 @@ StudyHub се управлява от НПО организация - Сдруж
     this.langInfo3 = 'Френският беше втория език, който изучавах в ПЕГ "Екзарх Йосиф I"'
     this.clientsTitle = 'Клиенти, с които съм работил'
     this.titleAchievements = 'Постижения'
+    this.shDescription = `StudyHub Bulgaria е първото пространство за споделено учене в Българиа.
+  То предлага на студентите тихо и модерно място, където те могат да преуспяват с ученето си.
+  То отвори врати на 1 октомври 2019 и вече е посетено от над 1500 студенти.`
+    this.learnMore = 'Научете повече:'
+    this.chDescription = `CareerHub е платформа за намиране на работа на хора с малко или без опит.
+  Тя цели да направи процеса по наемане на млади хора по-лесен за компаниите,
+  както и процесът на намииране на първа работа по-лесен за младежите. Вместо опит, платформата предлага алтернатива - специално разработени личностен и кариерен тест, достъпни за всеки младеж.`
+    this.awardsTitle = "Награди и Номинации"
+    this.shNominationsTitle = 'Номинации за StudyHub:'
+    this.personalAwards = 'Лични награди:'
+    this.nomination1 = 'Будител на годината - 2019'
+    this.nomination2 = 'Човек на годината - 2019'
+    this.nomination3 = 'Проект на годината - 2019'
+    this.nomination4 = 'Старт-ъп на годината - 2020 & 2021'
+    this.nomination5 = 'Най-добър новоизгяващ бизнес - 2020 & 2021'
+    this.nomination6 = 'Основател на годината - 2020 & 2021'
+    this.nomination7 = 'Най-добро Co-Working пространство - 2020 & 2021'
+    this.award1 = 'Финалист в Български текст на песен - 2018'
+    this.award2 = 'Победител в Български текст на песен - 2019'
   }
 
   introWork(){
