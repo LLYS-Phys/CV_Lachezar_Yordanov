@@ -11,6 +11,8 @@ export class MoreAboutMeComponent implements OnInit {
 
   @Input() titleMore = ''
   @Input() titleHobbies = ''
+  @Input() pitchText = ''
+  @Input() city = ''
 
   ngOnInit(): void {
   }

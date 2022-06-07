@@ -9,6 +9,9 @@ export class ContactsComponent implements OnInit {
 
   constructor() { }
 
+  @Input() pitchText = ''
+  @Input() city = ''
+
   ngOnInit(): void {
   }
 

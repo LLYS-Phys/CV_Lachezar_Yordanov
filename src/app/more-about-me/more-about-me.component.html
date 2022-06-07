@@ -5,5 +5,5 @@
         <h3>{{ titleHobbies }}</h3>
         <ng-image-slider [images]="imgCollection" [infinite]='true' [autoSlide]='3' [showArrow]='false' #nav></ng-image-slider>
     </div>
-    <app-contacts></app-contacts>
+    <app-contacts [pitchText]="pitchText" [city]="city"></app-contacts>
 </div>

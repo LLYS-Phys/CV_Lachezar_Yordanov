@@ -1,3 +1,29 @@
 .contacts{
-    
+    padding-top: 100px;
+    .pitch{
+        .pitchText{
+            white-space: pre;
+            font-size: 38px;
+            padding-bottom: 30px;
+        }
+    }
+    .contactInfo{
+        padding-top: 50px;
+        .info{
+            text-align: left;
+            .row{
+                display: inline;
+                img{
+                    width: 12%;
+                    padding-right: 3%;
+                    padding-bottom: 2.5%;
+                }
+                p{
+                    display: contents;
+                    font-size: 36px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
 }
