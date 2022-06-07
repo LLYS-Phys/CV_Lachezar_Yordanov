@@ -10,7 +10,7 @@
             border: 1px solid transparent;
             padding-top: 1%;
             transition: 0.5s;
-            @media (max-width: 1604px){
+            @media (min-width: 1200px) and (max-width: 1604px){
                 width: 50%;
             }
             .moreInfo{
@@ -22,7 +22,7 @@
             }
             .logo{
                 width: 15vw;
-                @media (max-width: 1604px){
+                @media (min-width: 1200px) and (max-width: 1604px){
                     width: 18vw;
                 }
             }

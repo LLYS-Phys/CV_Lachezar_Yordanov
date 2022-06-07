@@ -10,7 +10,7 @@
     .contactInfo{
         padding-top: 50px;
         .info{
-            @media (max-width: 1604px){
+            @media (min-width: 1200px) and (max-width: 1604px){
                 width: 60%;
              }
             text-align: left;
@@ -29,11 +29,11 @@
             }
         }
         .image{
-            @media (max-width: 1604px){
+            @media (min-width: 1200px) and (max-width: 1604px){
                 width: 40%;
              }
             img{
-                @media (max-width: 1604px){
+                @media (min-width: 1200px) and (max-width: 1604px){
                     width: 100%;
                  }
             }
