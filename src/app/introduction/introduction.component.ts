@@ -34,9 +34,6 @@ export class IntroductionComponent implements OnInit {
   @Output()
   moreClicked: EventEmitter<boolean> = new EventEmitter<boolean>()
 
-  @Output()
-  contactsClicked: EventEmitter<boolean> = new EventEmitter<boolean>()
-
   ngOnInit(): void {
   }
 
@@ -61,7 +58,7 @@ export class IntroductionComponent implements OnInit {
   }
 
   clickContact(){
-    this.contactsClicked.emit(true)
+    this.moreClicked.emit(true)
   }
 
 }
