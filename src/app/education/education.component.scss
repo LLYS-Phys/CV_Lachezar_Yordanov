@@ -29,7 +29,7 @@
         }
     }
     .educationPopUp{
-        background-color: lightgray;
+        background-color: white;
         border: 3px solid purple;
         box-shadow: black;
         margin: 0 25%;
@@ -38,6 +38,7 @@
         position: fixed;
         top: - 100%;
         transition: all .5s ease-in-out;
+        box-shadow: 1px 1px 15px 15px gray;
         .text{
             padding-top: 10%;
             p{
