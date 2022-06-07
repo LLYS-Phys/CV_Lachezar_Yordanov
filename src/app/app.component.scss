@@ -8,6 +8,9 @@
         table-layout: fixed;
         height: 5%;
         z-index: 99;
+        @media (max-width: 1199px){
+            display: none;
+        }
         a{
             cursor: pointer;
             color: white;
@@ -26,6 +29,11 @@
         .active{
             background-color: purple;
             font-weight: bold;
+        }
+    }
+    .header-mobile{
+        @media (min-width: 1200px){
+            display: none;
         }
     }
     .footer{
