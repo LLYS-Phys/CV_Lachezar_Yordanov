@@ -111,6 +111,12 @@ StudyHub се управлява от НПО организация - Сдруж
   nomination7 = 'Най-добро Co-Working пространство - 2020 & 2021'
   award1 = 'Финалист в Български текст на песен - 2018'
   award2 = 'Победител в Български текст на песен - 2019'
+  titleMore = 'Още за мен'
+  titleHobbies = 'Хобита'
+  pitchText = `Ако смятате, че бих бил добро попълнение
+  към вашия екип,моля свържете се с мен!
+  Ще се радвам да стана част от вашия екип!`
+  city = 'София, България'
 
   clickIntroduction() {
     this.openedIntroduction = true
@@ -266,6 +272,11 @@ Instead of experience, the platforms gives an alternative - specially designed P
     this.nomination7 = 'Best Co-Working Space - 2020 & 2021'
     this.award1 = 'Finalist in Bulgarian Lyrics for a Song - 2018'
     this.award2 = 'Winner in Bulgarian Lyrics for a Song - 2019'
+    this.titleMore = 'More about me'
+    this.titleHobbies = 'Hobbies'
+    this.pitchText = `If you think I would be a match for your team, please contact me!
+I would be glad to join your team!`
+    this.city = 'Sofia, Bulgaria'
   }
 
   setLangBg() {
@@ -366,6 +377,12 @@ StudyHub се управлява от НПО организация - Сдруж
     this.nomination7 = 'Най-добро Co-Working пространство - 2020 & 2021'
     this.award1 = 'Финалист в Български текст на песен - 2018'
     this.award2 = 'Победител в Български текст на песен - 2019'
+    this.titleMore = 'Още за мен'
+    this.titleHobbies = 'Хобита'
+    this.pitchText = `Ако смятате, че бих бил добро попълнение
+към вашия екип,моля свържете се с мен!
+Ще се радвам да стана част от вашия екип!`
+    this.city = 'София, България'
   }
 
   introWork(){

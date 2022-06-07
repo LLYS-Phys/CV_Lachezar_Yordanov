@@ -9,6 +9,8 @@ import { IntroductionComponent } from './introduction/introduction.component';
 import { MoreAboutMeComponent } from './more-about-me/more-about-me.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
+import { NgImageSliderModule } from 'ng-image-slider';
+import { ContactsComponent } from './more-about-me/contacts/contacts.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +20,13 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
     IntroductionComponent,
     MoreAboutMeComponent,
     SkillsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    ContactsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgImageSliderModule
   ],
   providers: [],
   bootstrap: [AppComponent]
