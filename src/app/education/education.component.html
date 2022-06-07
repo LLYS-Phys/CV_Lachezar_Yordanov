@@ -2,7 +2,7 @@
     <h2 class="col-lg-8">{{ titleEducation }}</h2>
     <img src="../../assets/education1.jpg" class="photo col-lg-4"/>
 
-    <div class="educationPopUp col-lg-4">
+    <div class="educationPopUp col-lg-4" [ngClass]="{'animation' : clickEduAny}">
         <div class="closeBtn" (click)="closePopUp()">X</div>
         <div class="image">
             <img src="../../assets/su-logo.jpg" *ngIf="clickedEdu1"/>
