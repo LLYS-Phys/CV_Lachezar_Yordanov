@@ -10,6 +10,9 @@
     .description{
         padding-top: 5%;
         padding-bottom: 3%;
+        @media (max-width: 1604px){
+            padding: 0;
+        }
     }
     .social{
         img{
@@ -25,9 +28,23 @@
     }
     .studyhub{
         padding-top: 70px;
+        iframe{
+            @media (max-width: 1604px){
+                width: 560px;
+                height: 292px;
+            }
+        }
     }
     .careerhub{
         padding-top: 50px;
+        .image{
+            img{
+                @media (max-width: 1604px){
+                    width: 100%;
+                    float: left;
+                }
+            }
+        }
     }
     .awards{
         padding-top: 50px;

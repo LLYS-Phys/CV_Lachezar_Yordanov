@@ -10,6 +10,9 @@
     .contactInfo{
         padding-top: 50px;
         .info{
+            @media (max-width: 1604px){
+                width: 60%;
+             }
             text-align: left;
             .row{
                 display: inline;
@@ -23,6 +26,16 @@
                     font-size: 36px;
                     font-weight: bold;
                 }
+            }
+        }
+        .image{
+            @media (max-width: 1604px){
+                width: 40%;
+             }
+            img{
+                @media (max-width: 1604px){
+                    width: 100%;
+                 }
             }
         }
     }
