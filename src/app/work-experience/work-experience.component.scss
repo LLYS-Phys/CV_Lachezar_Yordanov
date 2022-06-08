@@ -18,12 +18,18 @@
                 height: 210px;
                 h3{
                     font-size: 38px;
+                    @media (max-width: 900px){
+                        font-size: 4vw;
+                    }
                 }
             }
             .logo{
                 width: 15vw;
                 @media (min-width: 1200px) and (max-width: 1604px){
                     width: 18vw;
+                }
+                @media (max-width: 1199px) {
+                    width: 25vw;
                 }
             }
         }
@@ -38,7 +44,8 @@
         border: 3px solid purple;
         margin: 0 25%;
         z-index: 9999;
-        height: 70%;
+        height: auto;
+        padding-bottom: 5%;
         position: fixed;
         top: - 100%;
         transition: all .5s ease-in-out;
@@ -49,6 +56,9 @@
                 font-size: 16px;
                 width: 80%;
                 margin: 0 10%;
+                @media (max-width: 900px){
+                    font-size: 1.8vw;
+                }
             }
         }
         .image{
@@ -62,6 +72,9 @@
             font-size: 26px;
             padding-top: 10px;
             cursor: pointer;
+            @media (max-width: 900px){
+                font-size: 3vw;
+            }
         }
         .closeBtn:hover{
             font-weight: bold;

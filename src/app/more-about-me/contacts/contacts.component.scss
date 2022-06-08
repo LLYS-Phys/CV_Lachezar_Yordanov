@@ -2,9 +2,12 @@
     padding-top: 100px;
     .pitch{
         .pitchText{
-            white-space: pre;
+            white-space: pre-wrap;
             font-size: 38px;
             padding-bottom: 30px;
+            @media (max-width: 900px){
+                font-size: 4vw;
+            }
         }
     }
     .contactInfo{
@@ -25,7 +28,13 @@
                     display: contents;
                     font-size: 36px;
                     font-weight: bold;
+                    @media (max-width: 900px){
+                        font-size: 3.8vw;
+                    }
                 }
+            }
+            @media (max-width: 1199px){
+                padding-left: 20%;
             }
         }
         .image{
@@ -36,6 +45,9 @@
                 @media (min-width: 1200px) and (max-width: 1604px){
                     width: 100%;
                  }
+            }
+            @media (max-width: 1199px){
+                display: none;
             }
         }
     }

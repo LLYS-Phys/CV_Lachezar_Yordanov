@@ -17,8 +17,14 @@ h1,h2,h3,p{
         margin-top: -18%;
 
     }
+    @media (max-width: 1199px) {
+        display: none;
+    }
 }
 h2{
     font-size: 82px;
     padding-top: 5%;
+    @media (max-width: 900px){
+        font-size: 6vw;
+    }
 }

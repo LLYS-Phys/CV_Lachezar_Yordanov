@@ -28,6 +28,8 @@
         }
     }
     .mobile-header{
+        position: fixed;
+        width: 98%;
         height: 5vw;
         background-color: purple;
         z-index: 99999;
@@ -68,6 +70,9 @@
             font-size: 18px;
             color: black;
             transition: 0.5s;
+            @media (max-width: 900px){
+                display: none;
+            }
         }
         a:hover{
             color: purple;
@@ -83,6 +88,9 @@
             span{
                 font-size: 30px;
             }
+            @media (max-width: 900px){
+                text-align: center;
+            }
         }
     }
     .name{
@@ -90,6 +98,9 @@
         h1{
             font-size: 92px;
             text-align: center;
+            @media(max-width: 900px){
+                font-size: 8vw;
+            }
         }
     }
     .active{
