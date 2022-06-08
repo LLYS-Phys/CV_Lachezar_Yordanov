@@ -32,7 +32,7 @@ export class EducationComponent implements OnInit {
 
   clickEdu1(){
     var popup = document.getElementsByClassName("educationPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedEdu1 = true
     this.clickedEdu2 = false
     this.clickedEdu3 = false
@@ -42,7 +42,7 @@ export class EducationComponent implements OnInit {
 
   clickEdu2(){
     var popup = document.getElementsByClassName("educationPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedEdu2 = true
     this.clickedEdu1 = false
     this.clickedEdu3 = false
@@ -52,7 +52,7 @@ export class EducationComponent implements OnInit {
 
   clickEdu3(){
     var popup = document.getElementsByClassName("educationPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedEdu1 = false
     this.clickedEdu2 = false
     this.clickedEdu3 = true
@@ -62,7 +62,7 @@ export class EducationComponent implements OnInit {
 
   clickEdu4(){
     var popup = document.getElementsByClassName("educationPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedEdu2 = false
     this.clickedEdu1 = false
     this.clickedEdu3 = false

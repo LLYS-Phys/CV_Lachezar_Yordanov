@@ -6,16 +6,25 @@
         .helloText{
             padding-left: 5%;
             font-size: 52px;
+            @media (max-width: 900px){
+                font-size: 4.5vw;
+            }
         }
         .introText{
             padding-top: 3%;
             font-size: 28px;
-            white-space: pre;
+            @media (max-width: 900px){
+                font-size: 3vw;
+            }
+            white-space: pre-wrap;
         }
     }
     .navigation{
         padding-top: 10%;
         font-size: 28px;
+        @media (max-width: 900px){
+            font-size: 3vw;
+        }
         table{
             img{
                 width: 80%;
@@ -39,6 +48,9 @@
                 color: transparent;
                 font-size: 24px;
                 transition: 0.3s;
+                @media (max-width: 900px){
+                    display: none;
+                }
             }
         }
     }

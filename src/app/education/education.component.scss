@@ -1,5 +1,10 @@
 .education{
     text-align: center;
+    h2{
+        @media (max-width: 900px){
+            padding-bottom: 5vw;
+        }
+    }
     .main{
         padding-top: 50px;
         display: contents;
@@ -15,11 +20,20 @@
                 height: 210px;
                 h3{
                     font-size: 38px;
+                    @media (max-width: 900px){
+                        font-size: 4vw;
+                    }
+                }
+                @media (orientation: portrait){
+                    height: auto;
                 }
             }
             .logo{
                 width: auto;
                 height: 200px;
+                @media (orientation: portrait){
+                    height: 25vw;
+                }
             }
         }
         .edu:hover{
@@ -33,7 +47,8 @@
         border: 3px solid purple;
         margin: 0 25%;
         z-index: 9999;
-        height: 70%;
+        height: auto;
+        padding-bottom: 5%;
         position: fixed;
         top: - 100%;
         transition: all .5s ease-in-out;
@@ -44,6 +59,9 @@
                 font-size: 16px;
                 width: 80%;
                 margin: 0 10%;
+                @media (max-width: 900px){
+                    font-size: 3vw;
+                }
             }
         }
         .image{
@@ -57,9 +75,16 @@
             font-size: 26px;
             padding-top: 10px;
             cursor: pointer;
+            @media (max-width: 900px){
+                font-size: 4vw;
+            }
         }
         .closeBtn:hover{
             font-weight: bold;
+        }
+        @media (orientation: portrait){
+            width: 80%;  
+            margin-left: 7.5%;
         }
     }
     .additional{
@@ -68,6 +93,9 @@
             font-size: 36px;
             color: purple;
             padding-bottom: 30px;
+            @media (max-width: 900px){
+                font-size: 3.8vw;
+            }
     }
     .edu{
         display: flex;
@@ -81,11 +109,20 @@
             height: 210px;
             h3{
                 font-size: 38px;
+                @media (max-width: 900px){
+                    font-size: 4vw;
+                }
+            }
+            @media (orientation: portrait){
+                height: auto;
             }
         }
         .logo{
             width: auto;
             height: 200px;
+            @media (orientation: portrait){
+                height: 25vw;
+            }
         }
     }
     .edu:hover{

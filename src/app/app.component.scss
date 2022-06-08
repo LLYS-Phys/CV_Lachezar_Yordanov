@@ -8,6 +8,9 @@
         table-layout: fixed;
         height: 5%;
         z-index: 99;
+        @media (max-width: 1199px){
+            display: none;
+        }
         a{
             cursor: pointer;
             color: white;
@@ -23,9 +26,32 @@
             transition: 0.5s;
             font-weight: bold;
         }
-        .active{
-            background-color: purple;
-            font-weight: bold;
+    }
+    .mobile-header{
+        position: fixed;
+        width: 98%;
+        height: 7vw;
+        background-color: purple;
+        z-index: 99999;
+        transition: 0.5s;
+        @media (min-width: 1200px){
+            display: none;
+        }
+        .nav-mobile{
+            font-size: 5vw;
+            color: white;
+            padding-left: 1%;
+            padding-top: -4%;
+        }
+        .menu{
+            background-color: black;
+            height: 33vw;
+            z-index: 0;
+            display: none;
+            a{
+                font-size: 3vw;
+                color: white;
+            }
         }
     }
     .footer{
@@ -44,6 +70,9 @@
             font-size: 18px;
             color: black;
             transition: 0.5s;
+            @media (max-width: 900px){
+                display: none;
+            }
         }
         a:hover{
             color: purple;
@@ -59,6 +88,9 @@
             span{
                 font-size: 30px;
             }
+            @media (max-width: 900px){
+                text-align: center;
+            }
         }
     }
     .name{
@@ -66,6 +98,13 @@
         h1{
             font-size: 92px;
             text-align: center;
+            @media(max-width: 900px){
+                font-size: 8vw;
+            }
         }
+    }
+    .active{
+        background-color: purple;
+        font-weight: bold;
     }
 }

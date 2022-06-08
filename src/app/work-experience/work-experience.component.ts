@@ -36,7 +36,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob1(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob1 = true
     this.clickedJob2 = false
     this.clickedJob3 = false
@@ -48,7 +48,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob2(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob2 = true
     this.clickedJob1 = false
     this.clickedJob3 = false
@@ -60,7 +60,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob3(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob3 = true
     this.clickedJob1 = false
     this.clickedJob2 = false
@@ -72,7 +72,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob4(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob4 = true
     this.clickedJob1 = false
     this.clickedJob2 = false
@@ -84,7 +84,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob5(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob5 = true
     this.clickedJob1 = false
     this.clickedJob2 = false
@@ -96,7 +96,7 @@ export class WorkExperienceComponent implements OnInit {
 
   clickJob6(){
     var popup = document.getElementsByClassName("workDescriptionPopUp")[0] as HTMLElement
-    popup.style.top = '20%'
+    popup.style.top = '5%'
     this.clickedJob6 = true
     this.clickedJob1 = false
     this.clickedJob2 = false

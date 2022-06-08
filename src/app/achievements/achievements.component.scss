@@ -3,13 +3,22 @@
     h3{
         font-size: 38px;
         padding-bottom: 30px;
+        @media (max-width: 900px){
+            font-size: 4vw;
+        }
     }
     p{
         font-size: 18px;
+        @media (max-width: 900px){
+            font-size: 2vw;
+        }
     }
     .description{
         padding-top: 5%;
         padding-bottom: 3%;
+        @media (min-width: 1200px) and (max-width: 1604px){
+            padding: 0;
+        }
     }
     .social{
         img{
@@ -25,9 +34,30 @@
     }
     .studyhub{
         padding-top: 70px;
+        iframe{
+            @media (min-width: 1200px) and (max-width: 1604px){
+                width: 560px;
+                height: 292px;
+            }
+            @media (orientation: portrait){
+                width: 100%;
+                height: auto;
+            }
+        }
     }
     .careerhub{
         padding-top: 50px;
+        .image{
+            img{
+                @media (min-width: 1200px) and (max-width: 1604px){
+                    width: 100%;
+                    float: left;
+                }
+                @media (orientation: portrait){
+                    width: 100%;
+                }
+            }
+        }
     }
     .awards{
         padding-top: 50px;
@@ -37,6 +67,9 @@
             text-align: left;
             font-size: 20px;
             padding: 1%;
+            @media (max-width: 900px){
+                font-size: 2.25vw;
+            }
         }
         .shaward{
             li{
@@ -51,6 +84,9 @@
         h4{
             font-size: 24px;
             padding-bottom: 2%;
+            @media (max-width: 900px){
+                font-size: 3vw;
+            }
         }
     }
 }

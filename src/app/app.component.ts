@@ -15,6 +15,7 @@ export class AppComponent {
   openedAchievements = false
   openedMoreAboutMe = false
   bgLang = true
+  counterNav = 0
   introductionText = 'Представяне'
   workExperienceText = 'Трудов опит'
   educationText = 'Образование'
@@ -428,6 +429,28 @@ StudyHub се управлява от НПО организация - Сдруж
     this.openedSkills = false
     this.openedAchievements = false
     this.openedMoreAboutMe = true
+  }
+
+  toggleNav(){
+    var mobMenu = document.getElementsByClassName("menu")[0] as HTMLElement
+    var mobHeader = document.getElementsByClassName('mobile-header')[0] as HTMLElement
+    this.counterNav += 1
+    if (this.counterNav % 2 == 1){
+      mobMenu.style.display = 'block'
+      mobHeader.style.height = '33vw'
+    }
+    else {
+      mobMenu.style.display = 'none'
+      mobHeader.style.height = '7vw'
+    }
+  }
+
+  closeNav(){
+    var mobMenu = document.getElementsByClassName("menu")[0] as HTMLElement
+    var mobHeader = document.getElementsByClassName('mobile-header')[0] as HTMLElement
+    this.counterNav = 0
+    mobMenu.style.display = 'none'
+    mobHeader.style.height = '7vw'
   }
 
 }

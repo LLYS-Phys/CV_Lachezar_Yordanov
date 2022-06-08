@@ -3,6 +3,9 @@
     h3{
         font-size: 38px;
         padding-bottom: 30px;
+        @media (max-width: 900px){
+            font-size: 4vw;
+        }
     }
     .hobbies{
         padding-top: 50px;
