@@ -32,6 +32,11 @@
                 @media (min-width: 1200px) and (max-width: 1604px){
                     width: 100%;
                 }
+                img{
+                    @media (orientation: portrait){
+                        width: 100%;   
+                    }
+                }
             }
             padding-bottom: 200px;
             h3{

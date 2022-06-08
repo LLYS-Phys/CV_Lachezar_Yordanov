@@ -39,6 +39,10 @@
                 width: 560px;
                 height: 292px;
             }
+            @media (orientation: portrait){
+                width: 100%;
+                height: auto;
+            }
         }
     }
     .careerhub{
@@ -48,6 +52,9 @@
                 @media (min-width: 1200px) and (max-width: 1604px){
                     width: 100%;
                     float: left;
+                }
+                @media (orientation: portrait){
+                    width: 100%;
                 }
             }
         }

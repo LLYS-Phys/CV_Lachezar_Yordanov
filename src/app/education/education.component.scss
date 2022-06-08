@@ -24,10 +24,16 @@
                         font-size: 4vw;
                     }
                 }
+                @media (orientation: portrait){
+                    height: auto;
+                }
             }
             .logo{
                 width: auto;
                 height: 200px;
+                @media (orientation: portrait){
+                    height: 25vw;
+                }
             }
         }
         .edu:hover{
@@ -54,7 +60,7 @@
                 width: 80%;
                 margin: 0 10%;
                 @media (max-width: 900px){
-                    font-size: 1.8vw;
+                    font-size: 3vw;
                 }
             }
         }
@@ -75,6 +81,10 @@
         }
         .closeBtn:hover{
             font-weight: bold;
+        }
+        @media (orientation: portrait){
+            width: 80%;  
+            margin-left: 7.5%;
         }
     }
     .additional{
@@ -103,10 +113,16 @@
                     font-size: 4vw;
                 }
             }
+            @media (orientation: portrait){
+                height: auto;
+            }
         }
         .logo{
             width: auto;
             height: 200px;
+            @media (orientation: portrait){
+                height: 25vw;
+            }
         }
     }
     .edu:hover{

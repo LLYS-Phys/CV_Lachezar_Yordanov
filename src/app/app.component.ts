@@ -437,11 +437,11 @@ StudyHub се управлява от НПО организация - Сдруж
     this.counterNav += 1
     if (this.counterNav % 2 == 1){
       mobMenu.style.display = 'block'
-      mobHeader.style.height = '28vw'
+      mobHeader.style.height = '33vw'
     }
     else {
       mobMenu.style.display = 'none'
-      mobHeader.style.height = '5vw'
+      mobHeader.style.height = '7vw'
     }
   }
 
@@ -450,7 +450,7 @@ StudyHub се управлява от НПО организация - Сдруж
     var mobHeader = document.getElementsByClassName('mobile-header')[0] as HTMLElement
     this.counterNav = 0
     mobMenu.style.display = 'none'
-    mobHeader.style.height = '5vw'
+    mobHeader.style.height = '7vw'
   }
 
 }
