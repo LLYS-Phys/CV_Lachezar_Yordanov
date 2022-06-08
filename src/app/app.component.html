@@ -7,7 +7,7 @@
         <a (click)="clickAchievements()" [ngClass]="{active: openedAchievements}">{{ achievementsText }}</a>
         <a (click)="clickMoreAboutMe()" [ngClass]="{active: openedMoreAboutMe}">{{ moreAboutMeText }}</a>
     </div>
-    <div class="mobile-header">
+    <div class="mobile-header col-xs-12">
         <div class="nav-mobile col-xs-12" (click)="toggleNav()">≡</div>
         <div class="menu">
             <a (click)="clickIntroduction()" (click)="closeNav()" [ngClass]="{active: openedIntroduction}" class="col-xs-12">{{ introductionText }}</a>
