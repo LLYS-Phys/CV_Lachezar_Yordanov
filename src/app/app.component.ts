@@ -61,7 +61,7 @@ StudyHub се управлява от НПО организация - Сдруж
 Вместо опит, платформата предлага алтернатива -
 специално разработени личностен и кариерен тест, достъпни за всеки младеж.
 Като ко-основател на CareerHub, аз съм отговорен за неговата front-end част.`
-  jobDescription6='BOR е моето завръщане към програмирането чрез програмиране на онлайн въпросници. Работата ми включва както работа с готови библиотеки, така и изработка на много custom дизайни за медицински проучвания. В работното си ежедневие използвам JavaScript, CSS, Python и XML, както и други технологии, които изникват като нужни.'
+  jobDescription6='BOR е моето завръщане към програмирането чрез програмиране на онлайн въпросници. Работата ми включва както работа с готови библиотеки, така и изработка на много custom дизайни за медицински проучвания. В работното си ежедневие използвам JavaScript, CSS, Python и XML, както и други технологии, които изникват като нужни. След година в компанията са ми дадени и допълнителни задължения като QA на нови библкиотеки, както и L1 Support за вътрешна система.'
   titleEducation='Образование'
   eduEntry1='Софийски Университет'
   eduEntry2='ПЕГ "Екзарх Йосиф I"'
@@ -220,7 +220,7 @@ as well as make the process of finding a first job easier for the younsters.
 Instead of experience, the platforms gives an alternative -
 specially designed Personal and Career tests, available for every youngster
 As a co-founder of CareerHub, I'm responsible for its front-end aspect.`
-    this.jobDescription6='BOR is my come back to programming through programming online questionnaires. My work includes working with libraries, as well as creating custom designs for medical studies. In my workday, I usually work JavaScript, CSS, Python and XML, as well as any other techonologies that turn up as necessary for the project.'
+    this.jobDescription6='BOR is my come back to programming through programming online questionnaires. My work includes working with libraries, as well as creating custom designs from scratch for medical studies. In my workday, I usually work JavaScript, CSS, Python and XML, as well as any other techonologies that turn up as necessary for the project. After an year in the company, I have been given additional responsibilities incluing QA for new libraries, as well as L1 Support for an internal system.'
     this.titleEducation='Education'
     this.eduEntry1='Sofia University'
     this.eduEntry2='FLS "Ekzarh Josif I"'
